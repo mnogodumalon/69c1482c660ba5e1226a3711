@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "forms": [
+    {
+      "entity": "einkaufseintraege",
+      "app_id": "69c14815fa58aab0bb1f483b",
+      "path": "/rest/apps/69c14815fa58aab0bb1f483b/records",
+      "allowed_fields": [
+        "menge",
+        "einheit_eintrag",
+        "prioritaet",
+        "erledigt",
+        "anmerkung"
+      ],
+      "pow": true,
+      "pow_difficulty": 50000,
+      "title": "Einkaufseintraege — Formular"
+    },
+    {
+      "entity": "produkte",
+      "app_id": "69c1480f8b2d1f1284e79d0a",
+      "path": "/rest/apps/69c1480f8b2d1f1284e79d0a/records",
+      "allowed_fields": [
+        "produkt_name",
+        "kategorie",
+        "einheit",
+        "beschreibung"
+      ],
+      "pow": true,
+      "pow_difficulty": 50000,
+      "title": "Produkte — Formular"
+    },
+    {
+      "entity": "einkaufslisten",
+      "app_id": "69c148142a23cb12a67799b4",
+      "path": "/rest/apps/69c148142a23cb12a67799b4/records",
+      "allowed_fields": [
+        "listen_name",
+        "einkaufsdatum",
+        "geschaeft",
+        "status",
+        "notizen"
+      ],
+      "pow": true,
+      "pow_difficulty": 50000,
+      "title": "Einkaufslisten — Formular"
+    }
+  ]
+}
